@@ -1,0 +1,168 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lost_cities"
+	group: "6CE638C020BA25D4"
+	icon: "spore:living_core"
+	id: "73D8FC615C26147A"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Place a bed on top of thallasium blocks, and place heads all around. Then, click the bed!"]
+			id: "11B003611035C2DF"
+			rewards: [{
+				id: "72699624AB40166C"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "A scary place filled with spores"
+			tasks: [{
+				dimension: "lostcities:lostcity"
+				icon: "spore:living_core"
+				id: "39F4F72C3CDD4AB9"
+				title: "Enter the lost cities"
+				type: "dimension"
+			}]
+			title: "Enter the Lost Cities"
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11B003611035C2DF"]
+			description: ["Or should I say... &ospord?&r Ok I'll stop"]
+			id: "3A85B5F9FCD69635"
+			rewards: [{
+				id: "293C9FDABE65AA7E"
+				type: "xp"
+				xp: 5000
+			}]
+			subtitle: "A big sword"
+			tasks: [{
+				id: "681EAE4886CAE59A"
+				item: {
+					Count: 1
+					id: "spore:greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11B003611035C2DF"]
+			icon: "spore:mound_spawnegg"
+			id: "57CA77DA7B541E75"
+			rewards: [{
+				id: "52A8C54EF7A2A068"
+				type: "xp"
+				xp: 5000
+			}]
+			subtitle: "A great center of Spore activity"
+			tasks: [{
+				entity: "spore:mound"
+				id: "03297DE131F6ACC6"
+				title: "Defeat a Flesh Mound"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11B003611035C2DF"]
+			description: ["An angel ring grants creative flight; however it is only found very rarely in lost city chests."]
+			id: "12D7C243F85A12E7"
+			rewards: [{
+				id: "574092A67D7670FA"
+				type: "xp"
+				xp: 50000
+			}]
+			subtitle: "The most valuable item?"
+			tasks: [{
+				id: "57C2AE38E388DBBF"
+				item: "angelring:angel_ring"
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["11B003611035C2DF"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "spore:inf_up_chest"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5D67A16D7E9F68A1"
+			rewards: [{
+				id: "4FD588411706B56E"
+				type: "xp"
+				xp: 5000
+			}]
+			subtitle: "Get a full set of the best Spore gear"
+			tasks: [
+				{
+					id: "6C3FC934214EB317"
+					item: {
+						Count: 1
+						id: "spore:inf_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					id: "3E4B486D337DF076"
+					item: {
+						Count: 1
+						id: "spore:inf_up_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					id: "54BCF9FE7C2990E9"
+					item: {
+						Count: 1
+						id: "spore:inf_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					id: "5953C68527C8FD86"
+					item: {
+						Count: 1
+						id: "spore:inf_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: false
+					type: "item"
+				}
+			]
+			title: "Living Armor"
+			x: -5.5d
+			y: -1.5d
+		}
+	]
+	title: "Lost Cities"
+}

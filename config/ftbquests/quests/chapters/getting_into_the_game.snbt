@@ -1,0 +1,209 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_into_the_game"
+	group: "6CE638C020BA25D4"
+	icon: "minecraft:iron_ingot"
+	id: "00B0F5B0F874513B"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["78C732F3EAE49017"]
+			id: "0AA5EC03900AB083"
+			rewards: [{
+				id: "76E6C0B9809DCCC9"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Convert rocks into cobble"
+			tasks: [{
+				id: "004E63AFB610B747"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			id: "78C732F3EAE49017"
+			rewards: [{
+				id: "7DAE597D21644EBA"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Mine stone to get rocks"
+			tasks: [{
+				id: "705DE42189311103"
+				item: "notreepunching:stone_loose_rock"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0AA5EC03900AB083"]
+			id: "6B3DCCD1CB3C6197"
+			rewards: [{
+				id: "3CB5DAAF8105D445"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Your first step in upgrading tools"
+			tasks: [{
+				id: "7667EE4FBC259D5F"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B3DCCD1CB3C6197"]
+			id: "4E1A602C158AAED2"
+			rewards: [{
+				id: "356ED7AE31810F7C"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Get a bucket"
+			tasks: [{
+				id: "38C314C37D2415E3"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6B3DCCD1CB3C6197"]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "72059A6897EC9DDD"
+			rewards: [{
+				id: "36A47CAC48035C45"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Iron armor is a great midgame asset"
+			tasks: [
+				{
+					id: "18A580B3BEEEA807"
+					item: {
+						Count: 1
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A32FE327038784E"
+					item: {
+						Count: 1
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FA09198C0D17C48"
+					item: {
+						Count: 1
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D54A5C8273D81C1"
+					item: {
+						Count: 1
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Iron Armor"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B3DCCD1CB3C6197"]
+			id: "25BFC6751A755FCA"
+			rewards: [{
+				id: "0C0A6D75E786F337"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Start getting stronger iron weaponry"
+			tasks: [{
+				id: "79774C51193A5F84"
+				item: {
+					Count: 1
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6B3DCCD1CB3C6197"]
+			id: "5F0B373F15CE55A1"
+			rewards: [{
+				id: "282CE5BBF85CD324"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Get ready to mine diamonds!"
+			tasks: [{
+				id: "2FF4162194E87E01"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5F0B373F15CE55A1"]
+			id: "1F139876A43F6DFE"
+			rewards: [{
+				id: "245F5EE6B873ACF9"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Get your first diamond!"
+			tasks: [{
+				id: "2D466B897FCB9C3B"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+	]
+	title: "Starting Out"
+}

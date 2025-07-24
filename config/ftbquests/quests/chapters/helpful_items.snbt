@@ -1,0 +1,285 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "helpful_items"
+	group: "635489FCD239408C"
+	icon: "backpacked:backpack"
+	id: "265932776AF156FE"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4799FCC6B527AD93"
+			rewards: [{
+				id: "5A5A91067A6E7A45"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Use this to heal"
+			tasks: [{
+				id: "708F9106721DF645"
+				item: "firstaid:plaster"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.0d
+		}
+		{
+			id: "53D08CC5373CC9DA"
+			rewards: [{
+				id: "38B5DCDBC73FC74C"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Move around the world more easily"
+			tasks: [{
+				id: "47F964CB9E4F764C"
+				item: {
+					Count: 1
+					id: "grapplemod:grapplinghook"
+					tag: {
+						Damage: 0
+						custom: {
+							angle: 20.0d
+							attract: 0b
+							attractradius: 3.0d
+							crc32: 2252267022L
+							detachonkeyrelease: 0b
+							doublehook: 0b
+							enderstaff: 0b
+							hookgravity: 1.0d
+							maxlen: 30.0d
+							motor: 0b
+							motoracceleration: 0.2d
+							motordampener: 0b
+							motormaxspeed: 4.0d
+							motorwhencrouching: 0b
+							motorwhennotcrouching: 1b
+							oneropepull: 0b
+							phaserope: 0b
+							playermovementmult: 1.0d
+							pullbackwards: 1b
+							reelin: 1b
+							repel: 0b
+							repelforce: 1.0d
+							rocket: 0b
+							rocket_active_time: 0.5d
+							rocket_force: 1.0d
+							rocket_refuel_ratio: 15.0d
+							rocket_vertical_angle: 0.0d
+							smartdoublemotor: 1b
+							smartmotor: 0b
+							sneakingangle: 10.0d
+							sneakingverticalthrowangle: 0.0d
+							sticky: 0b
+							throwspeed: 2.0d
+							verticalthrowangle: 0.0d
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			id: "4500C36BA7BB0ADF"
+			rewards: [{
+				id: "7B6FDC6E1B749FEC"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Cool down"
+			tasks: [{
+				id: "2BA3EB7C457D4630"
+				item: {
+					Count: 1
+					id: "legendarysurvivaloverhaul:desert_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			id: "6367D47BD5699213"
+			rewards: [{
+				id: "4DCC9664FEA7D594"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Warm up"
+			tasks: [{
+				id: "6139ECB63CFA0C73"
+				item: {
+					Count: 1
+					id: "legendarysurvivaloverhaul:snow_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			id: "6A72B513017A367A"
+			rewards: [{
+				id: "45E52C951574E520"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "The basis for a storage network"
+			tasks: [{
+				id: "50E5963BFA743742"
+				item: "toms_storage:ts.inventory_connector"
+				type: "item"
+			}]
+			title: "Tom's Simple Storage"
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			id: "5738ABBA35997865"
+			rewards: [{
+				id: "757E50A56E3C8036"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Get a trumpet"
+			tasks: [{
+				id: "62D7A570CD6B40EB"
+				item: "doot:trumpet"
+				type: "item"
+			}]
+			title: "Loud Skele"
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			id: "2DFA033BCC1C36D6"
+			rewards: [{
+				id: "2887A0909E29757A"
+				type: "xp"
+				xp: 5000
+			}]
+			subtitle: "The strongest mob?"
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: "apotheosis:warden_tendril"
+				id: "6A397B52A89C7010"
+				title: "Kill the Warden"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			description: ["It's good in this game, just don't try it in real life."]
+			id: "69FAB70B657906F7"
+			rewards: [{
+				id: "4C05E41EC30D7EE2"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Start making wine!"
+			tasks: [{
+				id: "73DE586D3F12554E"
+				item: "vinery:fermentation_barrel"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			description: ["TECHNOBLADE NEVER DIES!!! <3"]
+			id: "4C9BAF515C767A6A"
+			rewards: [{
+				id: "45507ABA55506D5F"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "Never die"
+			tasks: [{
+				id: "2CBDFABC6DB958EA"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			id: "65CEDD58AF21B1CC"
+			rewards: [{
+				id: "7234CF2411B4CCCD"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Deep underwater excavation!"
+			tasks: [{
+				id: "312D4B59F6131661"
+				item: "minecraft:sniffer_egg"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			id: "000C3C334B5858F6"
+			rewards: [{
+				id: "2657E6D8ACDD054A"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "SO KAWAII!"
+			tasks: [{
+				id: "674365173668D693"
+				item: "minecraft:cherry_log"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			id: "23E7277BF25404B4"
+			rewards: [{
+				id: "0B75A31B80E6B864"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Get your first backpack"
+			tasks: [{
+				id: "7B6074944D6E1CBF"
+				item: "backpacked:backpack"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			description: ["Upon being equipped, you have seven curses applied to you, so read it carefully. The game becomes significantly more difficult, and you cannot remove it once equipped. It is highly recommended that you do not equip this on your first playthrough."]
+			icon: "enigmaticlegacy:cursed_ring"
+			id: "694296E6325DF515"
+			optional: true
+			rewards: [{
+				id: "22A01940BDCBFAE0"
+				item: "enigmaticlegacy:cursed_ring"
+				type: "item"
+			}]
+			subtitle: "Claim this at your own risk..."
+			tasks: [{
+				id: "793A452BE10EF5B9"
+				title: "&4Ring of Seven Curses"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+	]
+	title: "Other"
+}
