@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = true
+  world = fe80::ac1c:e484:ed7c:c1fe:25565
+}
+
